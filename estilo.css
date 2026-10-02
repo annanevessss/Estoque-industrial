@@ -1,0 +1,99 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 30px;
+}
+
+h1, h2, h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.box-login {
+    width: 380px;
+    border: 1px solid #d3d3d3;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.box-login label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.box-login input[type="email"],
+.box-login input[type="password"] {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #767676;
+    box-sizing: border-box;
+}
+
+.box-login button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 6px;
+    background-color: #efefef;
+    border: 1px solid #767676;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+.btn-simples {
+    background-color: #efefef;
+    border: 1px solid #767676;
+    padding: 3px 10px;
+    font-family: inherit;
+    font-size: 13px;
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn-simples:hover {
+    background-color: #e0e0e0;
+}
+
+.alerta-cinza {
+    background-color: #d3d3d3;
+    padding: 10px 15px;
+    font-weight: bold;
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+table.tabela-tradicional {
+    border-collapse: collapse;
+    margin-top: 10px;
+    width: 100%;
+}
+
+table.tabela-tradicional th, 
+table.tabela-tradicional td {
+    border: 1px solid #767676;
+    padding: 6px 12px;
+    text-align: left;
+}
+
+a.link-sair {
+    color: red;
+    text-decoration: underline;
+}
+
+.form-inline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-inline input, .form-inline select {
+    padding: 3px 5px;
+    border: 1px solid #767676;
+    font-family: inherit;
+}
